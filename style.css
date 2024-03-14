@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.stopWatch {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 24px;
+  border-radius: 10px;
+}
+
+.timerDisplay {
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.buttons button {
+  font-size: 18px;
+  background: none;
+  border: none;
+  background-color: var(--clr);
+  padding: 12px 24px;
+  color: white;
+  margin-inline: 6px;
+  cursor: pointer;
+  border-radius: 8px;
+}
